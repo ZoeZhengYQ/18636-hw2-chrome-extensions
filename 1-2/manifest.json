@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Text Replace",
+    "description": "Text Replacer",
+    "version": "1.0",
+  
+    "content_scripts": [
+      {
+        "matches": ["https://*/*", "http://*/*"],
+        "js":["jquery-3.4.1.js", "replace.js"],
+        "run_at": "document_end"
+      }
+    ],
+    "permissions": [
+      "activeTab",
+      "<all_urls>"
+    ],
+    "web_accessible_resources": [
+        "firefox.png"
+    ]
+  }
