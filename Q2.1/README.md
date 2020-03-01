@@ -1,4 +1,4 @@
-p1
+Privacy Destroying Extension - The Basics
 ==
 
 This repository contains code for 14828/18636 Browser Security homework 2 question 2. Including a chrome extension *URL listener* and a server.
