@@ -1,0 +1,16 @@
+{
+    "name": "URL listener",
+    "description": "Get URL change from user agent and send to server",
+    "version": "1",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js",
+            "jquery-3.4.1.min.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ]
+}
