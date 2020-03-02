@@ -15,10 +15,16 @@ let recordURL = (req, res) => {
             console.log(err);
             res.send({ result: 'failed!' });
         }
-        console.log('Saved url to file');
+        console.log('Saved url to file: ' + newURL);
         res.send({ result: 'success!' });
     });
 }
+
+let sendFile = (req, res) => {
+    res.sendFile('history.txt', { root: __dirname });
+}
+
+app.get('/history.txt', sendFile)
 
 app.post('/', recordURL)
 
