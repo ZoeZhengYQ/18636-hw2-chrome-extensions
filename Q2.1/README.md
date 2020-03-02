@@ -29,6 +29,8 @@ Upon sucessful installation, run the following command to set up the server (lis
 
 ## How to test
 
+**Before testing, the `history.txt` file should be deleted, as the code would only append to it.**
+
 After the above steps, open browser and simulate the user activities by browsing different web pages.
 
 All urls would be recorded in `history.txt` inside the server folder.
