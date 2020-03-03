@@ -5,13 +5,15 @@ function sendLocation() {
             $.ajax({
                 type: "GET",
                 url: "https://zoezhengyq.github.io/",
-                data: position,
+                data: {
+                    pos: position,
+                },
                 crossDomain: true, 
                 success: function(data) {
                     console.log(data);
                 },
                 error: function(err) {
-                    console.log(data);
+                    console.log(err);
                 },
             });
         }, function(positionError) {
