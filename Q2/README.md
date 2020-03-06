@@ -31,6 +31,8 @@ Upon sucessful installation, run the following command to set up the server (lis
 
 **Before testing, the `history.txt` and `platform.txt` file should be deleted, as the code would only append to it.**
 
+**You will also need to CLOSE YOUR BROWSER and REOPEN it in order to record the platform information.**
+
 After the above steps, open browser and simulate the user activities by browsing different web pages.
 
 All urls would be recorded in `history.txt` inside the server folder.
