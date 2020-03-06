@@ -29,13 +29,25 @@ Upon sucessful installation, run the following command to set up the server (lis
 
 ## How to test
 
-**Before testing, the `history.txt` file should be deleted, as the code would only append to it.**
+**Before testing, the `history.txt` and `platform.txt` file should be deleted, as the code would only append to it.**
 
 After the above steps, open browser and simulate the user activities by browsing different web pages.
 
 All urls would be recorded in `history.txt` inside the server folder.
 
+Sample output:
 
+```
+https://developer.chrome.com/extensions,chrome://newtab/,https://www.google.com/search?q=facebook&oq=face&aqs=chrome.0.0j69i57j69i59j0l5.1540j0j7&sourceid=chrome&ie=UTF-8,https://www.facebook.com/,chrome://newtab/,https://www.fotor.com/,https://www.fotor.com/app.html#/editor,
+```
+
+**This is for Q2.2**
+
+Additional user agent information is stored in `platform.txt` inside the server folder. 
+
+```
+Playform Info: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36s
+```
 
 ---
 
